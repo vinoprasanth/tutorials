@@ -28,4 +28,7 @@ Eg: echo -e "cursor will remain the same line \c"
 ---------------------------------------------------------------------------
 cat > is to overwrite [set +o noclobber if facing overwrite issue]
 cat >> is to append
+---------------------------------------------------------------------------
+AND operator && or else -a
+OR operator || or else -o
 
