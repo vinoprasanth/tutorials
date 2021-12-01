@@ -1,6 +1,7 @@
 #bash shell scripting tutorial.
 1. Variable syntax: name=prasanth
-(whitespace matters)
+(whitespace matters
+---------------------------------------------------------------------------
 2. IF condition syntax:
   if [condition]
     then
@@ -11,4 +12,19 @@
   else
       statement
   fi
-3. 
+---------------------------------------------------------------------------
+3. /c is used to make the cursor the same line
+-e flag is to enable the interpret \c
+Eg: echo -e "cursor will remain the same line \c"
+-e flag is to check wheather the filename is exists or not
+-f is to check regular file or not
+-d is to check directory is available or not
+-s is to check the file is empty or not
+-b is to check blog file (pictures, videos, audios)
+-c is to check character file
+-r is to check read permission
+-w is to write permission
+-x is to execute permission
+---------------------------------------------------------------------------
+cat > is to overwrite
+cat >> is to append
