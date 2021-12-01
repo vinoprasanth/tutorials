@@ -26,5 +26,6 @@ Eg: echo -e "cursor will remain the same line \c"
 -w is to write permission
 -x is to execute permission
 ---------------------------------------------------------------------------
-cat > is to overwrite
+cat > is to overwrite [set +o noclobber if facing overwrite issue]
 cat >> is to append
+
