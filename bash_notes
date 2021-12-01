@@ -1,0 +1,9 @@
+#bash shell scripting tutorial.
+1. Variable syntax: name=prasanth
+(whitespace matters)
+2. IF condition syntax:
+  if [condition]
+    then
+      statement
+  fi
+3. 
