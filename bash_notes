@@ -5,5 +5,10 @@
   if [condition]
     then
       statement
+  elif [condition]
+    then 
+      statement
+  else
+      statement
   fi
 3. 
